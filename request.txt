@@ -1,0 +1,10 @@
+{
+  "query": {
+    "match": {
+      "boiko_field": {
+        "query": "javenawe",
+        "analyzer": "boiko_analyzer"
+      }
+    }
+  }
+}
